@@ -22,10 +22,9 @@ jobs:
       
     # install Node.js
     - name: Setup Node.js environment
-    #- run: actions/setup-node@v1.4.2
-    uses: actions/setup-node@v2-beta
-    with: 
-      node-version: 12
+    - run: actions/setup-node@v1.4.2
+#     - uses: actions/setup-node@v2-beta
+#     with: node-version: 12
       
     # install surge
     #- name: Install Surge
