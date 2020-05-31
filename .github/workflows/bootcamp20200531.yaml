@@ -23,13 +23,3 @@ jobs:
     # install NodeJS
     - name: Setup Node.js environment
     - run: actions/setup-node@v1.4.2
-#     - uses: actions/setup-node@v2-beta
-#     with: node-version: 12
-      
-    # install surge
-    #- name: Install Surge
-    #run: npm install -g surge
-    
-    #- name: Run Surge
-    #run: surge ./ madnanhashmibootcamp20200531.surge.sh --token ${{secrets.SURGE_TOKEN}}
-      
