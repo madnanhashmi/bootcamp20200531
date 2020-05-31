@@ -28,7 +28,7 @@ jobs:
     
     # Install Surge
     - name: Install Surge
-      run: rpm install -g surge
+      run: npm install -g surge
       
     - name: Run Surge
       run: surge ./ madnanhashmibootcamp20200531.surge.sh --token ${{secrets.SURGE_TOKEN}}
