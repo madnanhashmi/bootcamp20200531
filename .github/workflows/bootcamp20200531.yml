@@ -28,9 +28,9 @@ jobs:
       node-version: 12
       
     # install surge
-    - name: Install Surge
-    run: npm install -g surge
+    #- name: Install Surge
+    #run: npm install -g surge
     
-    - name: Run Surge
-    run: surge ./ madnanhashmibootcamp20200531.surge.sh --token ${{secrets.SURGE_TOKEN}}
+    #- name: Run Surge
+    #run: surge ./ madnanhashmibootcamp20200531.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
