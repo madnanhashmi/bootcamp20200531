@@ -22,4 +22,4 @@ jobs:
       
     # install NodeJS
     - name: Setup Node.js environment
-    - run: actions/setup-node@v1.4.2
+      run: actions/setup-node@v1.4.2
