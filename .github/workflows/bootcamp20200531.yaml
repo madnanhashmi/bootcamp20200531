@@ -25,3 +25,10 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
+    
+    # Install Surge
+    - name: Install Surge
+      run: rpm install -g surge
+      
+    - name: Run Surge
+      run: surge ./ madnanhashmibootcamp20200531.surge.sh --token ${{secrets.SURGE_TOKEN}}
